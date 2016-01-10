@@ -1,7 +1,7 @@
 # R commands to reanalyze the data from Lin et al (2014) starting from the raw fragment counts
 
 #0. Set working directory, change as needed
-setwd("/Users/mikhail/Documents/Work/GenomeRunner/bodymap/data/Gilad/R_input_files")
+setwd("/Users/mikhail/Documents/Work/GenomeRunner/bodymap/Gilad/R_input_files")
 
 #1. load data
 datasets = as.data.frame(scan("Stanford_datasets.txt",list(setname="",seqBatch="",species="",tissue=""),sep="\t"))
